@@ -7,11 +7,11 @@ search_exclude: true
 
 <img src="https://ghchart.rshah.org/jaylog" alt="" style="width: 660px; height: 100px;">
 <div id="repos">
+    
 <script>
-
 // 사용한 언어를 return해주는 함수
 const repoLanguage = async (repo) =>{
-    let response = await fetch(`https://api.github.com/repos/jaylog/${repo}/languages`,
+    let response = await fetch(`https://api.github.com/repos/JayMyong66/${repo}/languages`,
         {headers:{
             'Accept' : 'application/vnd.github.v3+json',
         }});
@@ -31,7 +31,7 @@ const initRepo = async () =>{
         //갯수설정
         const count = 5;
         // headers 설명 : 깃허브에 요청할 형식 지정
-        let response = await fetch('https://api.github.com/users/jaylog/repos?'+
+        let response = await fetch('https://api.github.com/users/JayMyong66/repos?'+
                        'per_page='+count,
         {headers:{
             'Accept' : 'application/vnd.github.v3+json',
