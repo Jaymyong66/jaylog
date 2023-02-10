@@ -1,3 +1,5 @@
+### 2월 10일 (금)
+
 [//]: # (This template replaces README.md when someone creates a new repo with the fastpages template.)
 
 ![](https://github.com/JayMyong66/jaylog/workflows/CI/badge.svg) 
